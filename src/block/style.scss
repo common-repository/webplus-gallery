@@ -1,0 +1,101 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-bsv-plugin  {
+  background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+
+.popup {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  max-width: 370px;
+  top: 20%;
+  margin: auto;
+  background: white;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.popup_inner div {
+  padding: 0px;
+  margin: 3px 0px;
+}
+
+.popup_inner select {
+  min-width: 260px;
+}
+
+.block_webplusgallery {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.block_webplusgallery h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.block_webplusgallery button.popupbtn {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 25px;
+  background: #82b440;
+  border: 1px solid #82b440;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all .3s;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.btn-close {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 15px 15px;
+  background: #f3f5f6;
+  border: 1px solid #007cba;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all .3s;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.btn-insert {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 15px 15px;
+  background: #007cba;
+  border: 1px solid #007cba;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all .3s;
+  margin-top: 7px;
+  cursor: pointer;
+}

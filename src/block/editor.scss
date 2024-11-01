@@ -1,0 +1,22 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-cgb-block-bsv-plugin  {
+  background: $green;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+
+.webplusgallery-inspector-controls__button-container {
+  display: inline-flex;
+  vertical-align: middle;
+  padding: 8px;
+  padding-left: 20px;
+}

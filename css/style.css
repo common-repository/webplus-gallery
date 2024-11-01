@@ -1,0 +1,10 @@
+.li-item-pic-box {
+    padding: 5px;
+    width: 180px;
+    float: left;
+    border-radius: 5px;
+    margin:5px 15px 0px 0px;
+}
+.both {
+    clear: both;
+}
